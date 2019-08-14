@@ -1,5 +1,8 @@
 package com.oycbest.service;
 
+import java.io.IOException;
+import java.util.List;
+
 /**
  * @author oyc
  * @Title: MicroWeatherService
@@ -7,5 +10,7 @@ package com.oycbest.service;
  * @Description: TODO
  * @date 2019/8/13 23:55
  */
-public class MicroWeatherService {
+
+public interface MicroWeatherService {
+    public List cityList() throws IOException;
 }
